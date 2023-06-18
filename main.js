@@ -8,6 +8,10 @@ const openBuy = function () {
  };
 toBuy.forEach( link => {link.addEventListener("click", openBuy)});
 
+if (window.location.href.indexOf("buy-tickets") > -1) {
+   openBuy();
+};
+
 function getTotal() {
    let op = document.getElementById("inputCategoria").selectedIndex;
    let cantidad = document.getElementById("inputCantidad").value;
