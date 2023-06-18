@@ -1,5 +1,19 @@
+html {
+  scroll-padding-top: 6vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 .text-tickets {
   color: #029D36 !important;
+}
+.text-tickets:focus, .text-tickets:hover {
+  color: #11bb0b !important;
+}
+.text-tickets.active {
+  color: #5ecf29 !important;
 }
 
 #header img {
@@ -46,8 +60,18 @@
   text-decoration: underline dotted;
 }
 
-#form .btn-success {
+.btn-success {
   filter: hue-rotate(-60deg) brightness(170%);
+}
+
+.pagar-tickets {
+  color: #185194;
+  background-color: #cce5ff;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 #footer {
